@@ -266,6 +266,7 @@ def configure(keymap):
         keymap_notepad[ "A-W" ] = "C-C"                 # Copy
         keymap_notepad[ "C-Y" ] = "C-V"                 # Paste
         keymap_notepad[ "C-X" ][ "C-C" ] = "A-F4"       # Exit
+        #ここに追加
 
 
     # Customizing clipboard history list
